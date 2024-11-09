@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body wappad>
     <!-- Header -->
     <header class="header">
         <div class="container">
@@ -30,7 +30,7 @@
                             <a href="index.html">Trang chủ</a>
                         </li>
                         <li>
-                            <a href="#">Danh mục</a>
+                            <a href="stories.html">Danh mục</a>
                             <ul class = "list-danh-muc">
                                 <li>
                                     <a href="#">Truyện HE</a>
@@ -67,11 +67,14 @@
 
                 <!-- Button -->
                 <div class="inner-button">
-                    <a href="#" class="button login">
+                    <a href="login.html" class="button login" button-login>
                         Đăng nhập
                     </a>
-                    <a href="#" class="button register">
+                    <a href="register.html" class="button register" button-register>
                         Đăng ký
+                    </a>
+                    <a href="javascript:;" class = "button logout" button-logout>
+                        Đăng xuất
                     </a>
                 </div>
             </div>
@@ -428,7 +431,8 @@
   </footer>
   <!-- End Footer -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js" type="module"></script>
+    <script src="assets/js/login_register.js" type="module"></script>
 </body>
 
 </html>

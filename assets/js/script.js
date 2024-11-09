@@ -1,4 +1,4 @@
-//test thoi
+//slide
 var swiper = new Swiper(".mySwiper", {
     cssMode: true,
     navigation: {
@@ -11,4 +11,4 @@ var swiper = new Swiper(".mySwiper", {
     mousewheel: true,
     keyboard: true,
   });
-//end test thoi
+//slide
