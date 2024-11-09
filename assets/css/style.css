@@ -85,9 +85,9 @@ a {
 .header-menu li {
     position: relative;
     padding: 0 10px;
-  }
+}
 
-  .header-menu li ul {
+.header-menu li ul {
     position: absolute;
     background-color: white;
     border-top: 1px solid #ddd;
@@ -99,18 +99,19 @@ a {
     padding: 10px 0;
     width: 150px;
     display: none !important;
-  }
+}
 
-  .header-menu > li > ul {
+.header-menu>li>ul {
     top: 100%;
     left: 0;
-  }
+}
 
-  .header-menu li:hover > ul {
+.header-menu li:hover>ul {
     display: inline-flex !important;
     flex-direction: column;
     gap: 10px;
-  }
+}
+
 /* End Menu da cap */
 
 .header .inner-form {
@@ -610,3 +611,124 @@ a {
 }
 
 /* end footer */
+
+/* End index  */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Stories */
+
+/* Section 1 */
+.stories .section-1 {
+    position: relative;
+    border-top: 1px solid #cd4008;
+    border-bottom: 1px solid #cd4008;
+    background-color:#cd40083c;
+    margin-bottom: 35px;
+}
+
+.stories .section-1 .container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.stories .section-1 .inner-wrap {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex: 1;
+    text-align: center;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+
+.stories .section-1 .inner-wrap ul {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 48px;
+}
+
+.stories .section-1 .inner-wrap ul a {
+    font-weight: 700;
+    font-size: 16px;
+    color: #cd4008;
+}
+
+.stories .section-1 .inner-wrap ul a:hover {
+    color:#ff6122;
+}
+
+/* qq chu : ) */
+.stories .section-1 .inner-wrap ul li a:hover::before{
+    background-color: #000;
+    bottom: -30px;
+    width: 65px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+/* End Section 1 */
+
+/* Section 2 */
+.stories .section-2 {
+    padding: 60px 0;
+}
+
+.stories .section-2 .box-head {
+    display: flex;
+    justify-content:space-between;
+}
+
+.stories .section-2 .inner-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.stories .section-2 .inner-wrap .items {
+    width: calc((100% - 60px)/4);
+}
+
+
+/* End Section 2 */
+
+
+
+/* End Stories */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
