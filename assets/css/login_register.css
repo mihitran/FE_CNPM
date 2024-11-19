@@ -6,7 +6,8 @@ body {
     margin: 0;
     font-family: "Be Vietnam Pro", sans-serif;
     line-height: 1.4;
-    background-color: #FFFFFF;
+    background: rgb(203,202,218);
+    background: linear-gradient(90deg, rgba(203,202,218,1) 0%, rgba(206,89,29,1) 45%, rgba(81,196,219,1) 100%);
 }
 
 a {
